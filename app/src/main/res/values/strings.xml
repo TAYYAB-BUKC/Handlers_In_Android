@@ -2,4 +2,8 @@
     <string name="app_name">Handler_Assignment#02</string>
     <string name="Title">GupShup</string>
     <string name="Sologon">Bring Strong Connection!</string>
+    <string name="Logintext">Login</string>
+    <string name="ForgetPasswordText">Forget Password ?</string>
+    <string name="hint">Password...</string>
+    <string name="EmailID">tayyabdost@gmail.com</string>
 </resources>
