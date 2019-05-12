@@ -7,7 +7,7 @@ import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static int SPLASHSCREEN_DISPLAY_TIME = 6000; //It shift to NextActivity after 6 seconds
+    private static int DISPLAYTIME = 6000; //variable used to shift to NextActivity after 6 seconds
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +19,6 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this, NextActivity.class);
                 startActivity(intent);
             }
-        }, SPLASHSCREEN_DISPLAY_TIME);
+        }, DISPLAYTIME);
     }
 }
